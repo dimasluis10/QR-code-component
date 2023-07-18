@@ -1,0 +1,68 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif ;
+    flex-direction: column;
+}
+
+.tarjeta{
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 16px;
+    width: 340px;
+    height:auto ;
+}
+
+h1 {
+    font-weight: 800;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    color:hsl(218, 44%, 22%);
+    font-size: 21px;
+    width: 295px;
+    align-self: center;
+
+}
+
+.p1 {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    width: 270px;
+    align-self: center;
+    margin-bottom: 28px;
+}
+
+.attribution {
+    margin-top: auto;
+}
+
+a {
+    font-weight: 600;
+    color: hsl(218, 44%, 22%);
+    text-decoration: none;
+}
+
